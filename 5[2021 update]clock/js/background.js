@@ -22,9 +22,6 @@ const colors = [
 function handleClick() {
   const a = colors[Math.floor(Math.random() * colors.length)];
   const b = colors[Math.floor(Math.random() * colors.length)];
-  if (a === b) {
-    return handleClick();
-  }
   gradient.style.background = `linear-gradient(to left, ${a}, ${b} )`;
 }
 handleClick();
