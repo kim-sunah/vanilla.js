@@ -95,9 +95,16 @@ const randomNumber = Math.floor(Math.random() * quotest.length);
 const quote = document.querySelector("#quote span:first-child");
 const author = document.querySelector("#quote span:last-child");
 const choseQuote=quotest[randomNumber]
-console.log(quotest[Math.floor(Math.random() * quotest.length)])
-console.log(quotest[randomNumber])
 
 console.log(choseQuote)
-quote.innerText = choseQuote.quote ; 
+quote.innerText = choseQuote.quote ;  
 author.innerText = choseQuote.author;
+
+
+/* background */
+
+const image = document.createElement("img")
+
+image.src=choseQuote.image;
+
+document.body.prepend(image)
