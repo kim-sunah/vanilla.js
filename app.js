@@ -1,1 +1,2 @@
-alert("hi")
+// alert("hi")
+console.log(5*2);
