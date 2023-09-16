@@ -1,0 +1,36 @@
+#quote {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: calc(100% + 30px);
+}
+#image{
+    padding: 10px;
+    border:10px;
+    background-repeat: no-repeat;
+    /* height: 500px */
+    background-size: cover;
+    height: 600px;
+}
+
+#backgroundColor{
+    padding: 10px;
+    /* border:10px; */
+    background-repeat: no-repeat;
+}
+
+#todo-list{
+    border: 5px;
+    font-size: calc(100% + 5px);
+    background-color: #ffffff;
+    background-color: rgba( 255, 255, 255, 0.6 );
+}
+#quote{
+    padding: 30px;
+    font-size: calc(100% + 10px);
+    font-weight: bold;
+    text-align: center;
+    background-color: #ffffff;
+    background-color: rgba( 255, 255, 255, 0.6 );
+}
