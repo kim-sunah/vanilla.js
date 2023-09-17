@@ -14,8 +14,8 @@ function onLoginSubmit(event){
     paintGreetings(userName);
 }
 
-function paintGreetings(saveUsername){
-    greeting.innerText = "Hello " + saveUsername;
+function paintGreetings(userName){
+    greeting.innerText = "Hello " + userName;
     greeting.classList.remove("hidden")
     document.querySelector("#todo-div").classList.remove("hidden")
 }
