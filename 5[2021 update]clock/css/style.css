@@ -40,6 +40,10 @@ h2 {
     background-repeat: no-repeat;
 }
 
+.hidden{
+    display: none;
+}
+
 #todo-list {
     border: 5px;
     font-size: calc(100% + 5px);

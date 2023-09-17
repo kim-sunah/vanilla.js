@@ -12,39 +12,46 @@
 
 <body>
 
-    <form id="login-form" class="hidden"></form>
+    <!-- <form id="login-form" class="hidden"></form> -->
 
-
-    
-
-    <div id="image" >
-        <div id = "weather">
+    <div id="image">
+        <div id="weather">
             <span></span>
             <br>
             <span></span>
         </div>
+        <h2 class="hidden" id = "greeting"></h1>
         <h2 id="clock">00:00:00</h2>
         <div id="quote">
-            
+
             <span></span>
             <br>
             <span></span>
         </div>
+
+
+        <form id="login-form" class="hidden" >
+            <input type="text" placeholder="이름을 입력해주세요" required  maxlength="15"/>
+        </form>
+        
+
+        <div id = "todo-div" class="hidden">
         <form id="todo-form">
             <input type="text" placeholder="입력후 엔터를 눌러주세요" required />
         </form>
-    <ul id="todo-list">
-    </ul>
+        <ul id="todo-list">
+        </ul>
+    </div>
     </div>
 
     <h1 class="hidden" id="greeting"></h1>
-    
-    <div id="backgroundColor" >
+
+    <div id="backgroundColor">
 
     </div>
 
     <script src="js/clock.js"></script>
-    <script src="js/greetings.js"></script>
+    <script src="js/login.js"></script>
     <script src="js/quotes.js"></script>
     <!-- <script src="js/background.js"></script> -->
     <script src="js/todo.js"></script>
