@@ -21,8 +21,8 @@ function paintGreetings(saveUsername){
 }
 
 if(saveUsername === null){
-    loginForm.classList.remove("hidden")
     loginForm.addEventListener("submit", onLoginSubmit);
+    loginForm.classList.remove("hidden")
 }else{
     paintGreetings(saveUsername);
 }
