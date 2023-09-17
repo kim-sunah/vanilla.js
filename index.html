@@ -1,13 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Momentum</title>
-    <link rel="stylesheet" href="style.css">
-    
+    <title>Document</title>
+    <link rel="stylesheet" href="homework/css/style.css">
+
+
 </head>
+
 <body>
-    <script src ="app.js"></script>
+
+    <!-- <form id="login-form" class="hidden"></form> -->
+
+    <div id="image">
+        <div id="weather">
+            <span></span>
+            <br>
+            <span></span>
+        </div>
+        <h2 class="hidden" id = "greeting"></h1>
+        <h2 id="clock">00:00:00</h2>
+        <div id="quote">
+
+            <span></span>
+            <br>
+            <span></span>
+        </div>
+
+
+        <form id="login-form" class="hidden" >
+            <input type="text" placeholder="이름을 입력해주세요" required  maxlength="15"/>
+        </form>
+        
+
+        <div id = "todo-div" class="hidden">
+        <form id="todo-form">
+            <input type="text" placeholder="입력후 엔터를 눌러주세요" required />
+        </form>
+        <ul id="todo-list">
+        </ul>
+    </div>
+    </div>
+
+    <h1 class="hidden" id="greeting"></h1>
+
+    <div id="backgroundColor">
+
+    </div>
+
+    <script src="homework/js/clock.js"></script>
+    <script src="homework/js/login.js"></script>
+    <script src="homework/js/quotes.js"></script>
+    <!-- <script src="js/background.js"></script> -->
+    <script src="homework/js/todo.js"></script>
+    <script src="homework/js/weather.js"></script>
 </body>
+
 </html>
